@@ -1,4 +1,4 @@
-#### AI-Powered Code Reviewer
+# AI-Powered Code Reviewer
 
 This project tackles a real-world inefficiency in the development workflow: manual code reviews of Snowflake SQL, Python stored procedures, and Snowpark logic.
 
