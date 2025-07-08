@@ -121,3 +121,7 @@ GitHub Action needed custom YAML + permissions to allow inline commenting on pri
 -  Expand support to dbt models and parameterized views
 -  Auto-generate unit tests for stored procedures
 -  Add Slack bot integration to notify developers of AI review summaries
+
+## Limitations
+-  GPT output may vary slightly per run
+-  Doesn't cover procedural logic execution/output
