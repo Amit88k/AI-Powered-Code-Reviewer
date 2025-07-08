@@ -101,4 +101,23 @@ streamlit run streamlit_app.py
 
 Upload a file and click "🔍 Run AI Review" to view feedback.
 
+## Key Improvements
+| Area                     | Before              | After                   |
+| ------------------------ | ------------------- | ----------------------- |
+| Review Time per PR       | \~45 mins           | \~15 mins               |
+| Missed Optimization      | Common              | Reduced significantly   |
+| Review Consistency       | Varies per reviewer | Standardized            |
+| Developer Feedback Cycle | Slower              | Faster, more actionable |
 
+
+## Challenges Faced
+GPT had to be guided with precise prompts for Snowpark code and Python stored procedure logic
+Multi-language parsing (SQL + Python) within a single PR required careful formatting
+GitHub Action needed custom YAML + permissions to allow inline commenting on private repos
+
+
+## Future Enhancements
+-  Fine-tune GPT model using team's historic code reviews
+-  Expand support to dbt models and parameterized views
+-  Auto-generate unit tests for stored procedures
+-  Add Slack bot integration to notify developers of AI review summaries
